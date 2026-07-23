@@ -1,8 +1,30 @@
 aid: amcc-applied-micro-circuits-corporation
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amcc-applied-micro-circuits-corporation.png
 name: AMCC (Applied Micro Circuits Corporation)
-description: AMCC (Applied Micro Circuits Corporation) is a company surfaced as a portfolio company of
-  accel and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting
-  the enrichment pipeline.
+description: >-
+  Applied Micro Circuits Corporation (AMCC) was a California-based semiconductor
+  company founded in 1979, originally producing application-specific integrated
+  circuits (ASICs) for the military market before diversifying into commercial
+  mixed-signal, networking, storage, and embedded processor products. AMCC went
+  public on NASDAQ in 1997, acquired MMC Networks in 2000, and bought IBM's
+  PowerPC 400 processor line in 2004. Under the AppliedMicro brand it later
+  developed the X-Gene ARM 64-bit server-on-chip family. AMCC ceased to exist as
+  an independent entity when MACOM completed its acquisition on January 26, 2017;
+  the X-Gene compute business was subsequently spun out to form Ampere Computing.
+  As a fabless silicon/hardware company (now defunct), AMCC published no public
+  developer API surface, so this profile carries company identity only and no API
+  artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/amcc-applied-micro-circuits-corporation/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +32,30 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: MACOM
+x-acquired-date: '2017-01-26'
+x-successor: Ampere Computing
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Semiconductors
+- Hardware
+- ASIC
+- Networking
+- Embedded Processors
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
