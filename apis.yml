@@ -37,7 +37,7 @@ x-acquired-by: MACOM
 x-acquired-date: '2017-01-26'
 x-successor: Ampere Computing
 x-api-surface: none
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
